@@ -38,6 +38,11 @@
   A2["Comunicação Banco 5"]:::laranja-->
   A3["Conexão Internet 2"]:::vermelho
   end
+
+  B1["M Design 1"]:::branco-->
+  B2["N Backup"]:::laranja-->
+  B3["N Servidor"]:::vermelho
+  end
   
   classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
   classDef laranja color:#000, fill:#FFA233, stroke:#000, stroke-width:1px;
