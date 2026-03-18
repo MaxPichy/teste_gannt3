@@ -36,7 +36,7 @@
 
   A1["Refatorar 2"]:::branco-->
   A2["Comunicação Banco 5"]:::laranja-->
-  A3["Conexão Internet 2"]:::vermelho
+  A3["Conexão Internet 2"]:::amarelo
 
   B1["M Design 1"]:::branco-->
   B2["N Backup"]:::laranja-->
@@ -44,6 +44,7 @@
   end
   
   classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
+  classDef amarelo color#000, fill:#FFD84D, stroke:#000, stroke-width:1px;
   classDef laranja color:#000, fill:#FFA233, stroke:#000, stroke-width:1px;
   classDef vermelho color:#000, fill:#FF0000, stroke:#000, stroke-width:1px;
   
