@@ -27,5 +27,18 @@
   section Lançamento
   Implantação :dep, after test, 5d
   Treinamento : tra, after dep, 10d
-  
 ```
+
+
+```mermaid
+  graph TD
+  subgraph Matriz
+
+  A1["Refatorar 2"]:::branco-->    A2["Comunicação Banco 5"]:::laranja-->   A3["Conexão Internet 2"]:::vermelho
+  end
+  
+  B1["P Impressão 1"]:::branco-->  B2["P Banco de Dados 5"]:::laranja-->    B3[""]:::
+
+```
+
+
