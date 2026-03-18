@@ -39,9 +39,9 @@
   A3["Conexão Internet 2"]:::amarelo
   end
   
-  classDef branco fill:#FFF, stroke:#000, stroke-width:1px;
-  classDef laranja fill:#FFA233, stroke:#000, stroke-width:1px;
-  classDef amarelo fill:#E64C3C, stroke:#000, stroke-width:1px;
+  classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
+  classDef laranja color:#000, fill:#FFA233, stroke:#000, stroke-width:1px;
+  classDef amarelo color:#000, fill:#E64C3C, stroke:#000, stroke-width:1px;
   
 
 ```
