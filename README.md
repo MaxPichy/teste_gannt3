@@ -41,7 +41,7 @@
   
   classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
   classDef laranja color:#000, fill:#FFA233, stroke:#000, stroke-width:1px;
-  classDef vermelho color:#000, fill:#E64C3C, stroke:#000, stroke-width:1px;
+  classDef vermelho color:#000, fill:#FF0000, stroke:#000, stroke-width:1px;
   
 
 ```
