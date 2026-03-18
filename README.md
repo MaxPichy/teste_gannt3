@@ -37,7 +37,6 @@
   A1["Refatorar 2"]:::branco-->
   A2["Comunicação Banco 5"]:::laranja-->
   A3["Conexão Internet 2"]:::vermelho
-  end
 
   B1["M Design 1"]:::branco-->
   B2["N Backup"]:::laranja-->
