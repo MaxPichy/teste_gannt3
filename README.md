@@ -34,10 +34,15 @@
   graph TD
   subgraph Matriz
 
-  A1["Refatorar 2"]:::branco-->    A2["Comunicação Banco 5"]:::laranja-->   A3["Conexão Internet 2"]:::vermelho
+  A1["Refatorar 2"]:::branco-->
+  A2["Comunicação Banco 5"]:::laranja-->
+  A3["Conexão Internet 2"]:::amarelo
   end
   
-  B1["P Impressão 1"]:::branco-->  B2["P Banco de Dados 5"]:::laranja-->    B3[""]:::
+  classDef branco fill:#FFF, stroke:#000, stroke-width:1px;
+  classDef laranja fill:#FFA233, stroke:#000, stroke-width:1px;
+  classDef amarelo fill:#E64C3C, stroke:#000, stroke-width:1px;
+  
 
 ```
 
