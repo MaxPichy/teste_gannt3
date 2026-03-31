@@ -40,12 +40,14 @@ graph TD
     classDef orange color:#000, fill:#F4780B, stroke:#000, stroke-width:1px;
     classDef red color:#000, fill:#C82909, stroke:#000, stroke-width:1px;
 
-    subgraph Sistema de Cadastro de Empresas Parceiras
-        A1["Login e Autenticação"]:::red-->             B1["Revisão da Diretoria"]:::yellow
-        A2["CRUD"]:::orange-->                          B1["Revisão da Diretoria"]:::yellow
-        A3["Upload de Logotipo"]:::white-->             B1["Revisão da Diretoria"]:::yellow
-        A4["Relatórios em PDF/EXCEL"]:::yellow-->       B1["Revisão da Diretoria"]:::yellow
-        A5["Painel Administrativo"]:::red-->            B1["Revisão da Diretoria"]:::yellow
-        A6["Teste, Validação e Implementação"]:::red--> B1["Revisão da Diretoria"]:::yellow
+    subgraph "Sistema de Cadastro de Empresas Parceiras 🤝"
+        A1["Login e Autenticação"]:::red-->             B1
+        A2["CRUD"]:::orange-->                          B1
+        A3["Upload de Logotipo"]:::white-->             B1
+        A4["Relatórios em PDF/EXCEL"]:::yellow-->       B1
+        A5["Painel Administrativo"]:::red-->            B1
+        A6["Teste, Validação e Implementação"]:::red--> B1
+
+        B1["Revisão da Diretoria 📖"]:::yellow
     end
 ```
