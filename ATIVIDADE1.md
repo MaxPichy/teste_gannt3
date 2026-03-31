@@ -30,5 +30,4 @@ gantt
     section Implantação
     Implantação no Servidor     :deploy, after beta, 7d
     Entrega Final e Validação   :entrega, after deploy, 5d
-
 ``
