@@ -40,7 +40,7 @@ graph TD
         A3["Upload de Logotipo"]:::varmelho-->
         A4["Relatórios em PDF/EXCEL"]:::varmelho-->
         A5["Painel Administrativo"]:::varmelho-->
-        A6["Teste, Validação e Implementação"]:::varmelho-->
+        A6["Teste, Validação e Implementação"]:::varmelho
     end
   
     classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
