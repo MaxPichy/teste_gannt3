@@ -33,14 +33,14 @@ gantt
 ```
 
 ```mermaid
-graph Matriz
+graph TD
     subgraph Sistema de Cadastro de Empresas Parceiras
     A1["Login e Autenticação"]:::varmelho-->
-    A1["CRUD"]:::varmelho-->
-    A1["Upload de Logotipo"]:::varmelho-->
-    A1["Relatórios em PDF/EXCEL"]:::varmelho-->
-    A1["Painel Administrativo"]:::varmelho-->
-    A1["Teste, Validação e Implementação"]:::varmelho-->
+    A2["CRUD"]:::varmelho-->
+    A3["Upload de Logotipo"]:::varmelho-->
+    A4["Relatórios em PDF/EXCEL"]:::varmelho-->
+    A5["Painel Administrativo"]:::varmelho-->
+    A6["Teste, Validação e Implementação"]:::varmelho-->
     end
   
     classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
