@@ -42,10 +42,15 @@ graph TD
 
     subgraph Sistema de Cadastro de Empresas Parceiras
         A1["Login e Autenticação"]:::red-->
+        :milestone
         A2["CRUD"]:::orange-->
+
         A3["Upload de Logotipo"]:::white-->
+
         A4["Relatórios em PDF/EXCEL"]:::yellow-->
+
         A5["Painel Administrativo"]:::red-->
+
         A6["Teste, Validação e Implementação"]:::red
     end
 ```
