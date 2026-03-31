@@ -19,7 +19,7 @@ gantt
     Logotipo                   :lgt, after crd, 10d
     Exports                    :exp, after lgt, 10d
     Admin                      :adm, after exp, 14d
-    Correções                  :cor, after rel, 18d
+    Correções                  :cor, after rel, 20d
     
     section Testes
     Testes                      :tst, after adm, 12d
