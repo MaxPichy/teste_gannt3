@@ -35,12 +35,12 @@ gantt
 ```mermaid
 graph TD
     subgraph Sistema de Cadastro de Empresas Parceiras
-        A1["Login e Autenticação"]:::varmelho-->
-        A2["CRUD"]:::varmelho-->
-        A3["Upload de Logotipo"]:::varmelho-->
-        A4["Relatórios em PDF/EXCEL"]:::varmelho-->
-        A5["Painel Administrativo"]:::varmelho-->
-        A6["Teste, Validação e Implementação"]:::varmelho
+        A1["Login e Autenticação"]:::vermelho-->
+        A2["CRUD"]:::laranja-->
+        A3["Upload de Logotipo"]:::branco-->
+        A4["Relatórios em PDF/EXCEL"]:::amarelo-->
+        A5["Painel Administrativo"]:::vermelho-->
+        A6["Teste, Validação e Implementação"]:::vermelho
     end
   
     classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
