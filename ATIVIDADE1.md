@@ -5,8 +5,8 @@
 
   dateFormat YYYY-MM-DD
 
-  section Requisitos
-  Levantamento de Requisitos: active, req, 2026-04-01, 7d
+  section Preparação
+  Requisitos: active, req, 2026-04-01, 7d
   Documentação:               after req, doc, 7d
 
   section Layout
