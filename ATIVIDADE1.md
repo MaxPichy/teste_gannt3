@@ -1,7 +1,6 @@
 ```mermaid
 gantt
-    title TechConnect Solutions
-    subtitle Sistema de Cadastro de Empresas Parceiras
+    title TechConnect Solutions - Sistema de Cadastro de Empresas Parceiras
     dateFormat YYYY-MM-DD
     
     section Requisitos
