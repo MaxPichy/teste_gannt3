@@ -23,7 +23,7 @@ gantt
     
     section Testes
     Testes                      :tst, after adm, 14d
-    Relat.                      :rel, after tst, 3d
+    Relat.                      :rel, after tst, 4d
     Usab.                       :usb, after cor, 7d
     Versão Beta                 :beta, after usb, 7d
     
