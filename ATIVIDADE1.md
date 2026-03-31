@@ -11,23 +11,23 @@ gantt
     Modelagem                   :mod, after doc, 7d
     Layout Final                :lay, after mod, 14d
     
-    section Desenvolvimento
-    Configuração Ambiente      :cfg, after doc, 4d
-    Criação Banco de Dados     :bd, after cfg, 14d
-    Login/Autenticação         :lgn, after bd, 14d
-    CRUD Empresas              :crd, after lgn, 14d
-    Upload de Logotipo         :lgt, after crd, 10d
-    Relatórios PDF/Excel       :exp, after lgt, 10d
-    Painel Administrativo      :adm, after exp, 14d
-    Correções Pós-Teste        :cor, after rel, 14d
+    section Dev
+    Config Ambiente            :cfg, after doc, 4d
+    Banco de Dados             :bd, after cfg, 14d
+    Login                      :lgn, after bd, 14d
+    CRUD                       :crd, after lgn, 14d
+    Up Logotipo                :lgt, after crd, 10d
+    Exp PDF/Excel              :exp, after lgt, 10d
+    Administração              :adm, after exp, 14d
+    Correções                  :cor, after rel, 14d
     
     section Testes
-    Testes Unitários/Integração :tst, after adm, 14d
-    Relatório de Falhas         :rel, after tst, 3d
-    Testes de Usabilidade       :usb, after cor, 7d
+    Testes                      :tst, after adm, 14d
+    Relatório                   :rel, after tst, 3d
+    Testes Usab.                :usb, after cor, 7d
     Versão Beta                 :beta, after usb, 7d
     
     section Implantação
-    Implantação no Servidor     :deploy, after beta, 7d
-    Entrega Final e Validação   :entrega, after deploy, 5d
+    Implantação                 :deploy, after beta, 7d
+    Entrega Final               :entrega, after deploy, 5d
 ```
