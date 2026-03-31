@@ -4,12 +4,12 @@ gantt
     dateFormat YYYY-MM-DD
     
     section Requisitos
-    Levantamento               :crit, req, 2026-04-01, 7d
-    Documentação               :doc, after req, 7d
+    Levante                    :crit, req, 2026-04-01, 7d
+    Document                   :doc, after req, 7d
     
     section Design
-    Modelagem                   :mod, after doc, 7d
-    Layout                      :lay, after mod, 14d
+    Model                      :mod, after doc, 7d
+    Layout                     :lay, after mod, 14d
     
     section Dev
     Config                     :cfg, after doc, 4d
