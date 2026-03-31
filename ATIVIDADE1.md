@@ -17,7 +17,7 @@ gantt
     Login                      :lgn, after bd, 14d
     CRUD                       :crd, after lgn, 14d
     Up Logotipo                :lgt, after crd, 10d
-    Exp PDF/Excel              :exp, after lgt, 10d
+    Exports                    :exp, after lgt, 10d
     Administração              :adm, after exp, 14d
     Correções                  :cor, after rel, 14d
     
