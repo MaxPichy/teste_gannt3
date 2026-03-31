@@ -40,7 +40,7 @@ graph TD
     classDef orange color:#000, fill:##F4780B, stroke:#000, stroke-width:1px;
     classDef red color:#000, fill:##C82909, stroke:#000, stroke-width:1px;
 
-    subgraph Sistema de Cadastro de Empresas Parceiras 🤝
+    subgraph Sistema de Cadastro de Empresas Parceiras
         A1["Login e Autenticação"]:::red-->
         A2["CRUD"]:::orange-->
         A3["Upload de Logotipo"]:::white-->
