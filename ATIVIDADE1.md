@@ -23,11 +23,11 @@ gantt
     
     section Testes
     Testes                      :tst, after adm, 14d
-    Relatório                   :rel, after tst, 3d
+    Relat.                      :rel, after tst, 3d
     Usab.                       :usb, after cor, 7d
     Versão Beta                 :beta, after usb, 7d
     
     section Implantação
-    Implantação                 :deploy, after beta, 7d
-    Entrega Final               :entrega, after deploy, 5d
+    Deploy                      :deploy, after beta, 7d
+    Ent. Final                  :entrega, after deploy, 5d
 ```
