@@ -23,9 +23,9 @@ gantt
     
     section Testes
     Testes                      :tst, after adm, 14d
-    Relat.                      :rel, after tst, 4d
+    Rel.                        :rel, after tst, 4d
     Usab.                       :usb, after cor, 7d
-    Versão Beta                 :beta, after usb, 7d
+    Vrs Beta                    :beta, after usb, 7d
     
     section Implantação
     Deploy                      :deploy, after beta, 7d
