@@ -36,9 +36,9 @@ gantt
 graph TD
 
     classDef white color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
-    classDef yellow color:#000, fill:##F4DC0B, stroke:#000, stroke-width:1px;
-    classDef orange color:#000, fill:##F4780B, stroke:#000, stroke-width:1px;
-    classDef red color:#000, fill:##C82909, stroke:#000, stroke-width:1px;
+    classDef yellow color:#000, fill:#F4DC0B, stroke:#000, stroke-width:1px;
+    classDef orange color:#000, fill:#F4780B, stroke:#000, stroke-width:1px;
+    classDef red color:#000, fill:#C82909, stroke:#000, stroke-width:1px;
 
     subgraph Sistema de Cadastro de Empresas Parceiras
         A1["Login e Autenticação"]:::red-->
