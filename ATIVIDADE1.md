@@ -29,5 +29,5 @@ gantt
     
     section Implantação
     Deploy                      :deploy, after beta, 7d
-    Ent. Final                  :entrega, after deploy, 5d
+    Ent. Final                  :entrega, after deploy, 7d
 ```
