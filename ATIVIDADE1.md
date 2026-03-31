@@ -34,17 +34,17 @@ gantt
 
 ```mermaid
 graph Matriz
-subgraph Sistema de Cadastro de Empresas Parceiras
+    subgraph Sistema de Cadastro de Empresas Parceiras
     A1["Login e Autenticação"]:::varmelho-->
     A1["CRUD"]:::varmelho-->
     A1["Upload de Logotipo"]:::varmelho-->
     A1["Relatórios em PDF/EXCEL"]:::varmelho-->
     A1["Painel Administrativo"]:::varmelho-->
     A1["Teste, Validação e Implementação"]:::varmelho-->
-end
+    end
   
-classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
-classDef amarelo color:#000, fill:##F4DC0B, stroke:#000, stroke-width:1px;
-classDef laranja color:#000, fill:##F4780B, stroke:#000, stroke-width:1px;
-classDef vermelho color:#000, fill:##C82909, stroke:#000, stroke-width:1px;
+    classDef branco color:#000, fill:#FFF, stroke:#000, stroke-width:1px;
+    classDef amarelo color:#000, fill:##F4DC0B, stroke:#000, stroke-width:1px;
+    classDef laranja color:#000, fill:##F4780B, stroke:#000, stroke-width:1px;
+    classDef vermelho color:#000, fill:##C82909, stroke:#000, stroke-width:1px;
 ```
