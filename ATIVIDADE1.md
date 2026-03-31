@@ -19,13 +19,13 @@ gantt
     Logotipo                   :lgt, after crd, 10d
     Exports                    :exp, after lgt, 10d
     Admin                      :adm, after exp, 12d
-    Correções                  :cor, after rel, 14d
+    Correções                  :cor, after rel, 18d
     
     section Testes
     Testes                      :tst, after adm, 12d
     Rel.                        :rel, after tst, 4d
     Usab.                       :usb, after cor, 8d
-    Vrs Beta                    :beta, after usb, 5d
+    Vrs Beta                    :beta, after usb, 7d
     
     section Implantação
     Deploy                      :deploy, after beta, 7d
