@@ -41,7 +41,7 @@ graph TD
     classDef red color:#000, fill:#C82909, stroke:#000, stroke-width:1px;
 
     subgraph "Sistema de Cadastro de Empresas Parceiras"
-        A1["Login e Autenticação"]:::red-->             B1, A2
+        A1["Login e Autenticação"]:::red-->             B1
         A2["CRUD"]:::orange-->                          B1
         A3["Upload de Logotipo"]:::white-->             B1
         A4["Relatórios em PDF/EXCEL"]:::yellow-->       B1
